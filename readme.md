@@ -204,7 +204,7 @@ module.exports = {
   "email": "john@example.com",
   "password": "yourpassword"
 }
-``` |
+
 
 ### Candidate Endpoints
 
@@ -227,7 +227,7 @@ module.exports = {
 {
   "resume": "Updated resume text or URL to resume."
 }
-``` |
+
 
 ### Job Endpoints
 
@@ -244,7 +244,7 @@ module.exports = {
   "description": "Looking for an experienced software developer.",
   "requirements": "Node.js, React, MySQL"
 }
-``` |
+
 
 #### Get All Job Postings
 
@@ -269,7 +269,7 @@ module.exports = {
   "jobId": 1,
   "date": "2025-04-01T10:00:00Z"
 }
-``` |
+
 
 #### Update Interview Status
 
@@ -283,7 +283,7 @@ module.exports = {
   "interviewId": 1,
   "status": "In Progress"
 }
-``` |
+
 
 ## Profile Page Implementation
 
@@ -321,7 +321,8 @@ The Profile page allows users to view and edit their personal details and upload
   "email": "test@example.com",
   "password": "password123"
 }
-``` |
+
+
 | 4 | Send the request and copy the returned JWT token |
 
 ### Testing Protected Endpoints
