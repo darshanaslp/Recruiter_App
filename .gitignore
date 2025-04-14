@@ -1,0 +1,76 @@
+# Dependencies
+/node_modules
+*/node_modules
+Backend/node_modules
+frontend/node_modules
+/.pnp
+.pnp.js
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+Backend/.env
+
+# Build files
+/build
+/dist
+frontend/build
+frontend/dist
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug.log
+
+# Coverage directory used by tools like istanbul
+/coverage
+*/coverage
+
+# Production files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Uploaded files
+/uploads
+Backend/uploads
+/public/uploads
+/static/uploads
+
+# Log files
+*.log
+logs/
+log/
+
+# Temporary files
+tmp/
+temp/
+
+# Misc
+.cache/
+.next/
+.nuxt/
+.nyc_output
+.yalc
+yalc.lock
